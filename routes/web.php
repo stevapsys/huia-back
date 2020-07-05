@@ -14,5 +14,4 @@
 Route::get('/', ['as' => 'index', 'uses' => 'CustomerController@index']); 
 Route::get('/add', ['as' => 'add', 'uses' => 'CustomerController@add']); 
 Route::post('/add', ['as' => 'salvar', 'uses' => 'CustomerController@salvar']); 
-Route::get('/list,  CustomerController@show'); 
-
+Route::get('/list', 'CustomerController@json'); 

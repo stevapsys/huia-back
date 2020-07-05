@@ -30,6 +30,13 @@ class CustomerController extends Controller
 
             return redirect()->back();        
          }
+
+         public function json ()
+         {
+            $registros = Customer::all();
+            return $registros;
+
+         }
 }
 
 

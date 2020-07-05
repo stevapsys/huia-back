@@ -19,6 +19,10 @@
                         <th> Id </th>
                         <th> Name </th>
                         <th> Address </th>
+                        <th> Created </th>
+                        <th> Updated </th>
+
+
                     </tr>
                 </thead>
                 <tbody>
@@ -27,6 +31,9 @@
                         <td> {{$registro->id}} </td>
                         <td> {{$registro->name}} </td>
                         <td> {{$registro->address}} </td>
+                        <td> {{$registro->created_at}} </td>
+                        <td> {{$registro->updated_at}} </td>
+
                     </tr>
              @endforeach
                 </tbody>
