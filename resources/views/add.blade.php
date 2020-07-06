@@ -18,7 +18,7 @@
                 <input type="text" name="name" placeholder="name" value="{{isset($registro->name) ? $registro->name : ''}}">
                 <br>
                 <input type="text" name="address" placeholder="address" value="{{isset($registro->address) ? $registro->address : ''}}">
-                <button type="submit">Cadastrar</button>
+                <button type="submit" class="btn green">Cadastrar</button>
 
             </form>
     </div>
